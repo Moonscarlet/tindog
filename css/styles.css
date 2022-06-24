@@ -108,3 +108,10 @@ h2{
 .carousel-item{
     padding: 7% 15%;
 }
+
+.card-body{
+    text-align: center;
+}
+.pricing-button{
+    width: 100%;
+}
