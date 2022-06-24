@@ -45,3 +45,30 @@ body{
 .download-button{
     margin: 5% 3% 5% 0;
 }
+
+h3{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature{
+    text-align: center;
+    padding: 5%;
+}
+
+.fa-features{
+    font-size: 5rem;
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.fa-features:hover{
+    color: #ff4c68;
+}
+.features-p{
+    color: #8f8f8f;
+}
