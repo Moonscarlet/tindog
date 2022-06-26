@@ -113,10 +113,6 @@ h2 {
     padding: 7% 15%;
 }
 
-.card-body {
-    /* text-align: center; */
-}
-
 
 #pricing {
     text-align: center;
@@ -125,4 +121,51 @@ h2 {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    .phone {
+        /* width: 60%; */
+        transform: rotate(0deg);
+        position: static;
+        /* right: 25%; */
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-h{
+    font-size: 3.5rem;
+    padding: 5% 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.cta-b{
+    margin: 0 1% 6%;
+}
+
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.footer-p{
+
+}
+
+.fa-footer{
+    margin: 0 0.5% 2.5%;
+    color: rgb(41, 41, 41);
 }
